@@ -28,5 +28,5 @@ Minimizing functionals in the space of probability distributions can be done wit
 ## Credits
 
 - For the Bayesian Logistic Regression, we used some code of the [Large-Scale Wasserstein Gradient Flows](https://github.com/PetrMokrov/Large-Scale-Wasserstein-Gradient-Flows) repository.
-- For the Sliced-Wasserstein flows experiments, we used autoencoders from the [sw](https://github.com/aliutkus/swf) repository.
+- For the Sliced-Wasserstein flows experiments, we used autoencoders from the [swf](https://github.com/aliutkus/swf) repository.
 - For the FID implementation, we used some code of the [SINF](https://github.com/biweidai/SINF) repository.
