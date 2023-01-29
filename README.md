@@ -1,6 +1,6 @@
-# Sliced-Wasserstein_Gradient_Flows
+# Efficient Gradient Flows in Sliced-Wasserstein Space
 
-This repository contains the code and the experiments of the paper [Sliced-Wasserstein Gradient Flows](https://arxiv.org/abs/2110.10972). In this paper, we propose to to minimize functionals in the space of probability measures endowed by the sliced-Wasserstein distance. This can be done by leveraging the so-called JKO scheme. As the sliced-Wasserstein distance is easy to approximate in closed-form and differentiable, we propose to approximate sliced-Wasserstein gradient flows with either a discrete grid, particles, or generative models, and by using the backpropagation to optimize each JKO step.
+This repository contains the code and the experiments of the paper [Efficient Gradient Flows in Sliced-Wasserstein Space](https://arxiv.org/abs/2110.10972). In this paper, we propose to to minimize functionals in the space of probability measures endowed by the sliced-Wasserstein distance. This can be done by leveraging the so-called JKO scheme. As the sliced-Wasserstein distance is easy to approximate in closed-form and differentiable, we propose to approximate sliced-Wasserstein gradient flows with either a discrete grid, particles, or generative models, and by using the backpropagation to optimize each JKO step.
 
 ## Abstract
 
@@ -9,13 +9,11 @@ Minimizing functionals in the space of probability distributions can be done wit
 ## Citation
 
 ```
-@misc{bonet2022slicedwasserstein,
-    title={Sliced-Wasserstein Gradient Flows},
+@article{bonet2022efficient,
+    title={Efficient Gradient Flows in Sliced-Wasserstein Space},
     author={Clément Bonet and Nicolas Courty and François Septier and Lucas Drumetz},
     year={2022},
-    eprint={2110.10972},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+    journal={Transactions on Machine Learning Research}
 }
 ```
 
